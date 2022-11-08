@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive personal portfolio website design</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script scr="js/script.js"></script> -->
+
+</head>
+
+<body>
+    <!--header section starts-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="user">
+                        <img src="./img/uz.jpg" alt="">
+                        <h3 class="name">Bobonazarova Mokhira</h3>
+                        <p class="post">Front-end Developer</p>
+                    </div>
+
+                    <nav class="navbar-mobile">
+                        <ul>
+                            <li><a href="#home" id="menu2">home</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#education">education</a></li>
+                            <li><a href="#portfolio">portfolio</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="user">
+            <img src="./img/uz.jpg" alt="">
+            <h3 class="name">Bobonazarova Mokhira</h3>
+            <p class="post">Front-end Developer</p>
+        </div>
+
+        <nav class="navbar1">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--header section ends-->
+    <!--home section starts-->
+    <section class="home" id="home">
+        <h3>Hi There !</h3>
+        <h1>I'm <span>Bobonazarova Mokhira</span></h1>
+        <p>I am Bobonazarova Mahira, 20 years old.
+            I studied front-end developer at Astrum IT Academy. I am interested in reading new books to gain new knowledge.
+            I live always looking forward.</p>
+        <a href="#about"><button class="btn">About me <i class="fas fa-user"></i></button></a>
+    </section>
+    <!--home section ends-->
+
+    <!--about section starts-->
+    <section class="about" id="about">
+        <h1 class="heading"> <span>About</span>me</h1>
+        <div class="row">
+            <div class="info">
+                <h3> <span>Name :</span> Bobonazarova Mokhira</h3>
+                <h3> <span>Age :</span> 20</h3>
+                <h3> <span>Qualification :</span> Astrum IT Academy</h3>
+                <h3> <span>Post :</span> Front-End Developer</h3>
+                <h3> <span>Language :</span> Uzbek </h3>
+                <a href="https://portfilio-eta.vercel.app/"><button class="btn">Download CV <i
+                            class="fas fa-download"></i></button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>6+</span>
+                    <h3>Mounth of experience</h3>
+                </div>
+
+                <div class="box">
+                    <span>10+</span>
+                    <h3>Project completed</h3>
+                </div>
+
+                <div class="box">
+                    <span>5+</span>
+                    <h3>Happy clients</h3>
+                </div>
+
+                <div class="box">
+                    <span>2+</span>
+                    <h3>Awards won</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--about section ends-->
+
+    <!--education section starts-->
+    <section class="education" id="education">
+        <h1 class="heading">My<span>education</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019- ...</span>
+                <h3>Computer science teacher</h3>
+                <p>I am Bobonazarova Mokhira Chirchik State Pedagogical University 4th year student of computer science
+                    teaching methodology.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>Web Design</h3>
+                <p>A web designer is a person who understands internet technologies, has artistic taste and knowledge,
+                    who creates web page designs and integrates them into web sites.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Front-End Development</h3>
+                <p>I have successfully completed the front-end developer course at Astrum IT Academy 2022 and I am
+                    currently looking for a job in this field.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Digital Marketing</h3>
+                <p>digital marketing is considered to be the demand of the present time and is an unchangeable part of
+                    the internet.</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019- ...</span>
+                <h3>Math teacher</h3>
+                <p>I am also very interested in mathematics and have been tutoring students in this subject since 2019.
+                </p>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Front End Development</h3>
+                <p>In addition to the Astrum IT Academy, I further strengthened my knowledge in the front-end direction
+                    at the Gennis Educational Center.</p>
+            </div>
+
+        </div>
+    </section>
+    <!--education section ends-->
+
+    <!--portfolio section starts-->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">My <span>Portfolio</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="https://main-mohira02.vercel.app/"><img src="./img/rasm.jpg" alt=""></a>
+            </div>
+
+            <div class="box">
+                <a href="https://animatsiya-zeta.vercel.app/"><img src="./img/js.jpg" alt=""></a>
+            </div>
+
+            <div class="box">
+                <a href="https://3dmodel-amber.vercel.app/"><img src="./img/3d.jpg" alt=""></a>
+            </div>
+
+            <div class="box">
+                <a href="https://soat-lovat.vercel.app/"><img src="./img/soat.jpg" alt=""></a>
+            </div>
+
+            <div class="box">
+                <a href="https://conkulyator.vercel.app/"><img src="./img/kk.jpg" alt=""></a>
+            </div>
+
+            <div class="box">
+                <a href="https://responsive-wheat.vercel.app/"><img src="./img/menu.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!--portfolio section ends-->
+
+    <!--contact section starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>Contact</span> Me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">Contact info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> mohirabobonazarova@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i> +998 99 569-03-28</h3>
+                    <h3><i class="fas fa-phone"></i> +998 99 411-57-04</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> Tashkent,Uzbekistan - 111900.</h3>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+    <!--contact section ends-->
+    <!--scroll top button-->
+    <a href="#home" class="top"></a>
+    <img scr="images/scroll-top-img.png" alt="">
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script scr="js/script.js"></script>
+<script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
